@@ -1,0 +1,42 @@
+.task3 > form > button {
+    margin: 10px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px;
+}
+
+.form-field > input {
+    width: 180px;
+    margin: 5px 0px;
+}
+
+.names-list {
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.names-list > div{
+    width: 180px;
+    height: 30px;
+    margin: 5px px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 0px 0px 0px 5px;
+}
+
+.names-list > div > button {
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0px 5px 0px 0px;
+}
+
+.names-list > div:nth-child(odd) {
+    background-color: rgba(211, 211, 211, 0.385);
+}
