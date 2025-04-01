@@ -1,5 +1,5 @@
 
-export type ButtonType = "primary" | "secondary" | "tertiary" | "disabled";
+type ButtonType = "primary" | "secondary" | "tertiary" | "disabled";
 
 interface ButtonProps {
   type?: ButtonType;

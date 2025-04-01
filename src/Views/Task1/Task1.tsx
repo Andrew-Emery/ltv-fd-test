@@ -21,7 +21,7 @@ const Task1 = () => {
                 <div>Block 7</div>
                 <div>Block 8</div>
             </main>
-            <footer>Fotter</footer>
+            <footer>Footer</footer>
         </ViewTemplate>
     )
 }
