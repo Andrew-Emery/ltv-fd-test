@@ -37,3 +37,7 @@ Run this script to check whether your types are correct
 ```
 npm run task4
 ```
+
+## Implementation - 
+
+Considered using a union but the component was setup in such a way that I just built the props as optional. Not too much to say on this task.

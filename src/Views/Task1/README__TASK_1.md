@@ -23,3 +23,7 @@ as follows:
         - Display “Header Tablet” on tablets (768px and above).
         - Display “Header Small Desktop” on medium desktop screens (1024px and above).
         - Display “Header Large Desktop” on large desktop screens (1280px and above).
+
+## Implementation - 
+
+Using `@media` queries in CSS to complete this task along with grid display. Did contemplate using a react approach to get the view width and using that to conditionally render items and styling but decided that there were librarys that could do this such as resize-observer https://www.npmjs.com/package/@react-hook/resize-observer

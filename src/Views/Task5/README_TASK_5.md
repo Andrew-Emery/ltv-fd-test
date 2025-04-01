@@ -20,3 +20,7 @@ Run this command at the terminal to see passing test results
 ```
 npm run task5
 ```
+
+## Implementation - 
+
+There was a lot of groundwork already done on this one, we had failing tests to practice some TDD. Just applied a filter before we mapped over the group of members to only grab the members of that membership group. Then reran the tests to make sure they passed.

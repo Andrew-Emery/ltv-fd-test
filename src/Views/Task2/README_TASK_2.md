@@ -11,3 +11,6 @@ maintainable, and follow a clean structure.
 - The Button API should be customizable using props.
 - Style each button type differently for a clear visual distinction between them.
 
+## Implementation - 
+
+Kept it nice and simple and just used minimal button props to complete the task. It has a label, onClick func and type. Opted on using a switch to apply styling within the JS. My choice on this was to apply styles based on props at the runtime with potentially high specificity however it should be nothe that stylesheets are more performant.

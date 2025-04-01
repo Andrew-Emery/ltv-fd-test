@@ -30,3 +30,8 @@ Run this script to check whether your tests are correct
 
 ```
 npm run task3
+```
+
+## Implementation - 
+
+Using react state to control components, setup with the intention of expanding the form later on. Error handing was a little tricky here with ensuring that the correct errors persisted and were handled when resolved. Quite fun doing this task manually where I would usually use a library such as formik - https://formik.org/docs/overview - that handles values, validation, form feedback and submission.
